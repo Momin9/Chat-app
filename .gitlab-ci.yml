@@ -6,7 +6,6 @@ mirror_to_github:
   script:
     - git remote add github https://Momin9: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@github.com/Momin9/Chat-app.git
     - git fetch origin
-    - git credential-cache exit
     - git push github --mirror
   only:
     - main  # Adjust branch as needed
